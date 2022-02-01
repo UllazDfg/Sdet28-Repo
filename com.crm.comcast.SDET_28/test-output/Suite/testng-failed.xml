@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ContactTest.CreateContactPageUsingTestNGTest2">
+        <methods>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAm"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateContactTest"/>
+          <include name="configBm"/>
+        </methods>
+      </class> <!-- ContactTest.CreateContactPageUsingTestNGTest2 -->
+      <class name="ContactTest.CreateContactTestUsingTestNG1">
+        <methods>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAm"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateContact"/>
+          <include name="configBm"/>
+        </methods>
+      </class> <!-- ContactTest.CreateContactTestUsingTestNG1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
