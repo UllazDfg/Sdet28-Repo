@@ -11,6 +11,6 @@ public void customerTest1() {
 @Test (groups = "reggressionTest")
 
 public void customerTest2() {
-	syso
+	System.out.println("This is Reggression ");
 }
 }

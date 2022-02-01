@@ -71,7 +71,7 @@ public class CreateOrganizationTest {
 		homePage.clickOrganizationLink();
 		
 		OrganizationPage orgPage = new OrganizationPage(driver);
-		orgPage.clickCreateOrgImg();
+		orgPage.getCreateOrgPlusImage();
 		
 		CreateOrganizationPage createOrgPage= new CreateOrganizationPage(driver);
 		createOrgPage.createOrganization(ExpectedorganizationName);

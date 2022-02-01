@@ -21,6 +21,7 @@ import com.crm.comcast.objectRepository.LoginPage;
  */
 public class BaseClass {
 public WebDriver driver;
+public static WebDriver sdriver;
 public FileUtility fUtil = new FileUtility();
 public WebDriverUtility wUtil = new WebDriverUtility();
 public JavaUtility jUtil = new JavaUtility();
