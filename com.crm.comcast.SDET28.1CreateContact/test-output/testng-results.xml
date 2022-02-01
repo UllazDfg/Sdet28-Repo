@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-26T16:38:16 IST" name="Suite" finished-at="2022-01-26T16:38:16 IST" duration-ms="160">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateContactTest.CreateContactsTest()[pri:0, instance:CreateContactTest@6a6afff2]" name="CreateContactsTest" class="CreateContactTest"/>
+        <method signature="CreateOrganizationTest.CreateOrgTest()[pri:0, instance:com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest@366647c2]" name="CreateOrgTest" class="com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest"/>
+      </group> <!-- smokeTest -->
+      <group name="reggressionTest">
+        <method signature="CreateContactTest.CreateOrganizationTest()[pri:0, instance:CreateContactTest@6a6afff2]" name="CreateOrganizationTest" class="CreateContactTest"/>
+        <method signature="CreateOrganizationTest.ModifyTestTest()[pri:0, instance:com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest@366647c2]" name="ModifyTestTest" class="com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest"/>
+      </group> <!-- reggressionTest -->
+    </groups>
+    <test started-at="2022-01-26T16:38:16 IST" name="Test" finished-at="2022-01-26T16:38:16 IST" duration-ms="160">
+      <class name="CreateContactTest">
+        <test-method signature="CreateContactsTest()[pri:0, instance:CreateContactTest@6a6afff2]" started-at="2022-01-26T16:38:16 IST" name="CreateContactsTest" finished-at="2022-01-26T16:38:16 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactsTest -->
+        <test-method signature="CreateOrganizationTest()[pri:0, instance:CreateContactTest@6a6afff2]" started-at="2022-01-26T16:38:16 IST" name="CreateOrganizationTest" finished-at="2022-01-26T16:38:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationTest -->
+      </class> <!-- CreateContactTest -->
+      <class name="com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest">
+        <test-method signature="CreateOrgTest()[pri:0, instance:com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest@366647c2]" started-at="2022-01-26T16:38:16 IST" name="CreateOrgTest" finished-at="2022-01-26T16:38:16 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method signature="ModifyTestTest()[pri:0, instance:com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest@366647c2]" started-at="2022-01-26T16:38:16 IST" name="ModifyTestTest" finished-at="2022-01-26T16:38:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyTestTest -->
+      </class> <!-- com.crm.comcast.vtiger.CreateOrg.CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

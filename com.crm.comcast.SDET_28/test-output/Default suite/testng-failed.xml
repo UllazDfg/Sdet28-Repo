@@ -3,6 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="ContactTest.CreateContactPageUsingTestNGTest2">
+        <methods>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAm"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateContactTest"/>
+          <include name="configBm"/>
+        </methods>
+      </class> <!-- ContactTest.CreateContactPageUsingTestNGTest2 -->
       <class name="ContactTest.CreateContactTestUsingTestNG1">
         <methods>
           <include name="configBs"/>
@@ -14,6 +25,17 @@
           <include name="configBm"/>
         </methods>
       </class> <!-- ContactTest.CreateContactTestUsingTestNG1 -->
+      <class name="ContactTest.CreateOrganizationTest">
+        <methods>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAm"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createOrg"/>
+          <include name="configBm"/>
+        </methods>
+      </class> <!-- ContactTest.CreateOrganizationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

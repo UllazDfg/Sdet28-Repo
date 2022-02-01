@@ -11,7 +11,7 @@ import org.testng.ITestResult;
 public class ListenerImpClass extends BaseClass implements ITestListener {
 	
 	public void onTestFailure(ITestResult result) {
-		String testCaseName = result.getMethod().getMethodName();
+		/*String testCaseName = result.getMethod().getMethodName();
 		System.out.println(testCaseName);
 		
 		EventFiringWebDriver event = new EventFiringWebDriver(BaseClass.sdriver);
@@ -26,6 +26,7 @@ public class ListenerImpClass extends BaseClass implements ITestListener {
 			e.printStackTrace();
 		}
 		
+	}*/
 	}
 
 }
